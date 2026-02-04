@@ -1,0 +1,14 @@
+{
+  "name": "csat-akkodis-middle-east",
+  "version": "1.0.0",
+  "description": "Akkodis Middle East CSAT survey collector",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
