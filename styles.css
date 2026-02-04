@@ -175,6 +175,30 @@ h1 {
   min-height: 110px;
 }
 
+.text-question input {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 12px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.submission-status {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 520px;
+}
+
+.submission-status a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.submission-status a:hover {
+  text-decoration: underline;
+}
+
 .survey-footer {
   display: flex;
   flex-direction: column;
